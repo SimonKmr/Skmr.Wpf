@@ -13,14 +13,15 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Skmr.Wpf
+namespace Skmr.Wpf.Timeline
 {
     /// <summary>
-    /// Interaktionslogik für Timeline.xaml
+    /// Interaktionslogik für TimelinePanel.xaml
     /// </summary>
-    public partial class Timeline : UserControl
+    public partial class TimelinePanel : UserControl
     {
-        public Timeline()
+        //https://stackoverflow.com/questions/37949599/how-to-dynamically-draw-a-timeline-in-wpf
+        public TimelinePanel()
         {
             InitializeComponent();
         }
